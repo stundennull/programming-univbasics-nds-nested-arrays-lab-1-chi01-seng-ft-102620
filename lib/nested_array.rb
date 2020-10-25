@@ -25,12 +25,12 @@ def sorted_matrix
 end
 
 def matrix_lookup(matrix, row, column)
-  Sorted_Produce = [ [CONVENTIONAL_PRODUCE], [ORGANIC_PRODUCE] ]
-  Sorted_Produce[0][2]
+  sorted_produce = [ [CONVENTIONAL_PRODUCE], [ORGANIC_PRODUCE] ]
+  sorted_produce[0][2]
 end
 
 def matrix_update(matrix, row, column, new_value)
-  Sorted_Produce = [ [CONVENTIONAL_PRODUCE], [ORGANIC_PRODUCE] ]
-  Sorted_Produce[0][2] = "Mango"
-  Sorted_Produce
+  sorted_produce = [ [CONVENTIONAL_PRODUCE], [ORGANIC_PRODUCE] ]
+  sorted_produce[0][2] = "Mango"
+  sorted_produce
 end
