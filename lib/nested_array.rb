@@ -17,20 +17,20 @@ CONVENTIONAL_PRODUCE = [
 ]
 
 def assembled_matrix
-  Produce = [[CONVENTIONAL_PRODUCE], [ORGANIC_PRODUCE]]
+  Produce = [ [CONVENTIONAL_PRODUCE], [ORGANIC_PRODUCE] ]
 end
 
 def sorted_matrix
-  Sorted_Produce = [[CONVENTIONAL_PRODUCE.sort], [ORGANIC_PRODUCE.sort]]
+  Sorted_Produce = [ [CONVENTIONAL_PRODUCE.sort], [ORGANIC_PRODUCE.sort] ]
 end
 
 def matrix_lookup(matrix, row, column)
-  Sorted_Produce = [[CONVENTIONAL_PRODUCE], ORGANIC_PRODUCE]]
+  Sorted_Produce = [ [CONVENTIONAL_PRODUCE], [ORGANIC_PRODUCE] ]
   Sorted_Produce[0][2]
 end
 
 def matrix_update(matrix, row, column, new_value)
-  Sorted_Produce = [[CONVENTIONAL_PRODUCE], ORGANIC_PRODUCE]]
+  Sorted_Produce = [ [CONVENTIONAL_PRODUCE], [ORGANIC_PRODUCE] ]
   Sorted_Produce[0][2] = "Mango"
   Sorted_Produce
 end
