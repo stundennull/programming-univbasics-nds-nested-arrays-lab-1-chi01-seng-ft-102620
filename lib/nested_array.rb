@@ -17,11 +17,11 @@ CONVENTIONAL_PRODUCE = [
 ]
 
 def assembled_matrix
-  Produce = [ [CONVENTIONAL_PRODUCE], [ORGANIC_PRODUCE] ]
+  produce = [ [CONVENTIONAL_PRODUCE], [ORGANIC_PRODUCE] ]
 end
 
 def sorted_matrix
-  Sorted_Produce = [ [CONVENTIONAL_PRODUCE.sort], [ORGANIC_PRODUCE.sort] ]
+  sorted_produce = [ [CONVENTIONAL_PRODUCE.sort], [ORGANIC_PRODUCE.sort] ]
 end
 
 def matrix_lookup(matrix, row, column)
