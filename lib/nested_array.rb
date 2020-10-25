@@ -31,6 +31,6 @@ end
 
 def matrix_update(matrix, row, column, new_value)
   sorted_produce = [ CONVENTIONAL_PRODUCE, ORGANIC_PRODUCE ]
-  sorted_produce[0][2] = "Mango"
+  sorted_produce[0][2] = "Lemons"
   sorted_produce
 end
